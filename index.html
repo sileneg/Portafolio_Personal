@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/TextPlugin.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/logosilel.png" type="image/x-icon" >
+    <title>Mi Portafolio</title>
+</head>
+
+<body>
+    <!-- Menú -->
+    <header class="cabecera">
+        <img class="cabecera__logo" src="assets/logosilel.png" alt="Logo">
+        <h1 class="cabecera__titulo">SileneGQ. - Lic. Tecnología e Informática</h1>
+        <nav class="navegacion">
+            <ul class="navegacion__lista">
+                <li class="navegacion__elemento"><a href="#sobre-mi">Sobre mí</a></li>
+                <li class="navegacion__elemento"><a href="#habilidades">Habilidades</a></li>
+                <li class="navegacion__elemento"><a href="#aficiones">Hobbies</a></li>
+                <li class="navegacion__elemento"><a href="#formacion">Formación</a></li>
+                <li class="navegacion__elemento"><a href="#proyectos">Proyectos</a></li>
+                <li class="navegacion__elemento"><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de Presentación -->
+    <section class="presentacion">
+        <div class="presentacion__texto">
+            <h2 class="presentacion__saludo"></h2>
+            <h1 class="presentacion__nombre"> <span class="nombre-soy"></span> <span class="nombre-destacado"></span></h1>
+            <p class="presentacion__descripcion"></p>
+            <p class="presentacion__descripcion1"></p>
+            <a href="assets/Curriculum.pdf" class="presentacion__boton" target="_blank">Mí CV</a>  
+            <ul class="redes-sociales">
+                <li><a href="https://www.linkedin.com/in/silene-gonz%C3%A1lez-quiroz/" class="fab fa-linkedin" target="_blank"></a></li>
+                <li><a href="https://github.com/sileneg" class="fab fa-github" target="_blank"></a></li>
+                <li><a href="https://instagram.com/silgonqui" class="fab fa-instagram" target="_blank"></a></li>
+                <li><a href="https://web.telegram.org/k/" class="fab fa-telegram" target="_blank"></a></li>
+            </ul>
+        </div>
+        <div class="presentacion__imagen">
+            <img src="assets/Foto Silene González.jpg" alt="Foto de perfil">
+        </div>
+    </section>
+
+    <!-- Sección Sobre Mí -->
+    <section class="sobre-mi" id="sobre-mi">
+        <h2 class="sobre-mi__titulo">Sobre mí</h2>
+        <p class="sobre-mi__texto">Soy desarrolladora con experiencia en tecnologías web, especialmente en front-end. 
+            Me encanta transformar ideas en soluciones visuales y dinámicas, utilizando colores, animaciones y 
+            multimedia. Tecnóloga en producción de multimedia. Docente y Formadora con conocimientos pedgógicos, 
+            habilidades digitales, diversidad e inclusión, manejo de grupos y el diseño de estrategias didácticas
+            para la enseñanza y el aprendizaje. Habilidad para investigar y en constante búsqueda de los cambios
+            tecnológicos. Persona proactiva, buen carisma, responsable, comprometida, con adaptabilidad al cambio
+            y orientación al servicio, trabajo en equipo y perseverante.</p>
+        <img class="sobre-mi__firma" src="assets/firmasilene.png" alt="Firma">
+    </section>
+
+    <!-- Sección de Habilidades -->
+    <section class="habilidades" id="habilidades">
+        <h2 class="habilidades__titulo">Habilidades</h2>
+        <ul class="habilidades__lista">
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="assets/htlm.png" alt="HTML">
+                <p class="habilidades__nombre">HTML 5</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="assets/js_icon.png" alt="JavaScript">
+                <p class="habilidades__nombre">JavaScript</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="assets/css_icon.png" alt="React">
+                <p class="habilidades__nombre">CSS</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="assets/php_icon.png" alt="PHP">
+                <p class="habilidades__nombre">PHP</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="assets/react_icon.png" alt="React">
+                <p class="habilidades__nombre">React</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="assets/mysql.png" alt="Node.js">
+                <p class="habilidades__nombre">MySQL</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="assets/python.png" alt="Node.js">
+                <p class="habilidades__nombre">Python</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="assets/Git-Icon.png" alt="Node.js">
+                <p class="habilidades__nombre">Git</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="assets/github.png" alt="Node.js">
+                <p class="habilidades__nombre">GitHub</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="assets/boostrap.png" alt="Node.js">
+                <p class="habilidades__nombre">Bootstrap</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="assets/vscode.png" alt="Node.js">
+                <p class="habilidades__nombre">VSCode</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="assets/startuml.png" alt="Node.js">
+                <p class="habilidades__nombre">StarUML</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Sección de Aficiones -->
+    <section class="aficiones" id="aficiones">
+        <h2 class="aficiones__titulo">Hobbies</h2>
+        <ul class="aficiones__lista">
+            <li class="aficiones__elemento">
+                <img class="aficiones__icono" src="assets/voleibol.png" alt="Voleibol">
+                <p class="aficiones__nombre">Voleibol</p>
+            </li>
+            <li class="aficiones__elemento">
+                <img class="aficiones__icono" src="assets/futbol.png" alt="Futbol">
+                <p class="aficiones__nombre">Futbol</p>
+            </li>
+            <li class="aficiones__elemento">
+                <img class="aficiones__icono" src="assets/escucha.png" alt="Oír música">
+                <p class="aficiones__nombre">Oír Música</p>
+            </li>
+            <li class="aficiones__elemento">
+                <img class="aficiones__icono" src="assets/tv_icon.png" alt="Ver TV">
+                <p class="aficiones__nombre">Ver TV</p>
+            </li>
+            <li class="aficiones__elemento">
+                <img class="aficiones__icono" src="assets/forkspoon_icon.png" alt="Cocinar">
+                <p class="aficiones__nombre">Cocinar</p>
+            </li>
+            <li class="aficiones__elemento">
+                <img class="aficiones__icono" src="assets/leer.png" alt="Leer">
+                <p class="aficiones__nombre">Leer</p>
+            </li>
+            <li class="aficiones__elemento">
+                <img class="aficiones__icono" src="assets/viajar.png" alt="Futbol">
+                <p class="aficiones__nombre">Viajar</p>
+            </li>
+            <li class="aficiones__elemento">
+                <img class="aficiones__icono" src="assets/puzzles.png" alt="Futbol">
+                <p class="aficiones__nombre">Armar Puzzles</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Sección de Formación Académica -->
+    <section class="formacion" id="formacion">
+        <h2 class="formacion__titulo">Formación Académica</h2>
+        <div class="formacion__grid">
+            <div class="formacion__elemento" onclick="openModal('assets/diploma uni.png')">
+                <img class="formacion__icono" src="assets/universidad.png" alt="Licenciatura">
+                <div>
+                    <h3 class="formacion__nombre">Licenciatura en Tecnología e Informática</h3>
+                    <p class="formacion__detalle">2023</p>
+                </div>
+            </div>
+            <div class="formacion__elemento" onclick="openModal('assets/diploma sena.png')">
+                <img class="formacion__icono" src="assets/snea.png" alt="Tecnólogo">
+                <div>
+                    <h3 class="formacion__nombre">Tecnólogo Producción de Multimedia</h3>
+                    <p class="formacion__detalle">2021</p>
+                </div>
+            </div>
+            <div class="formacion__elemento" onclick="openModal('assets/diplomado-programacion.png')">
+                <img class="formacion__icono" src="assets/misiontic.png" alt="Diplomado">
+                <div>
+                    <h3 class="formacion__nombre">Diplomado en Habilidades en Programación</h3>
+                    <p class="formacion__detalle">2022</p>
+                </div>
+            </div>
+            <div class="formacion__elemento" onclick="openModal('assets/fundamentos-ciber.png')">
+                <img class="formacion__icono" src="assets/google.png" alt="Fundamentos de Ciberseguridad">
+                <div>
+                    <h3 class="formacion__nombre">Fundamentos de Ciberseguridad</h3>
+                    <p class="formacion__detalle">2023</p>
+                </div>
+            </div>
+            <div class="formacion__elemento" onclick="openModal('assets/gestion-riesgos.png')">
+                <img class="formacion__icono" src="assets/google.png" alt="Gestión de Riesgos">
+                <div>
+                    <h3 class="formacion__nombre">Gestiona los Riesgos de Seguridad</h3>
+                    <p class="formacion__detalle">2023</p>
+                </div>
+            </div>
+            <div class="formacion__elemento" onclick="openModal('assets/conexion.png')">
+                <img class="formacion__icono" src="assets/google.png" alt="Redes y Seguridad de Redes">
+                <div>
+                    <h3 class="formacion__nombre">Conexión y Protección: Redes y Seguridad de Redes</h3>
+                    <p class="formacion__detalle">2023</p>
+                </div>
+            </div>
+            <div class="formacion__elemento" onclick="openModal('assets/len-python.png')">
+                <img class="formacion__icono" src="assets/mintic.png" alt="Python">
+                <div>
+                    <h3 class="formacion__nombre">Lenguaje de Programación Python</h3>
+                    <p class="formacion__detalle">2024</p>
+                </div>
+            </div>
+            <div class="formacion__elemento" onclick="openModal('assets/javascript.png')">
+                <img class="formacion__icono" src="assets/mintic.png" alt="JavaScript">
+                <div>
+                    <h3 class="formacion__nombre">Lenguaje de Programación JavaScript</h3>
+                    <p class="formacion__detalle">2024</p>
+                </div>
+            </div>
+            <div class="formacion__elemento" onclick="openModal('assets/inteligencia artificial.png')">
+                <img class="formacion__icono" src="assets/mintic.png" alt="Inteligencia Artificial">
+                <div>
+                    <h3 class="formacion__nombre">Inteligencia Artificial</h3>
+                    <p class="formacion__detalle">2024</p>
+                </div>
+            </div>
+            <div class="formacion__elemento" onclick="openModal('assets/internet de las cosas.png')">
+                <img class="formacion__icono" src="assets/mintic.png" alt="Internet de las Cosas">
+                <div>
+                    <h3 class="formacion__nombre">Internet de las Cosas</h3>
+                    <p class="formacion__detalle">2024</p>
+                </div>
+            </div>
+            <div class="formacion__elemento" onclick="openModal('assets/ciencia-datos.png')">
+                <img class="formacion__icono" src="assets/mintic.png" alt="Ciencia de Datos">
+                <div>
+                    <h3 class="formacion__nombre">Ciencia de Datos</h3>
+                    <p class="formacion__detalle">2024</p>
+                </div>
+            </div>
+            <div class="formacion__elemento" onclick="openModal('assets/analitica.png')">
+                <img class="formacion__icono" src="assets/mintic.png" alt="Analítica de Datos">
+                <div>
+                    <h3 class="formacion__nombre">Analítica de Datos</h3>
+                    <p class="formacion__detalle">2024</p>
+                </div>
+            </div>
+            <div class="formacion__elemento" onclick="openModal('assets/int_front-end.png')">
+                <img class="formacion__icono" src="assets/meta.png" alt="Desarrollo Front-End">
+                <div>
+                    <h3 class="formacion__nombre">Introducción al Desarrollo Front-End</h3>
+                    <p class="formacion__detalle">2024</p>
+                </div>
+            </div>
+            <div class="formacion__elemento" onclick="openModal('assets/resolver-problemas.png')">
+                <img class="formacion__icono" src="assets/uci.png" alt="Resolver Problemas">
+                <div>
+                    <h3 class="formacion__nombre">Cómo Resolver Problemas y Tomar Decisiones con Eficacia</h3>
+                    <p class="formacion__detalle">2024</p>
+                </div>
+            </div>
+            <div class="formacion__elemento" onclick="openModal('assets/des-personal.png')">
+                <img class="formacion__icono" src="assets/aluraoracle.png" alt="Desarrollo Personal">
+                <div>
+                    <h3 class="formacion__nombre">Desarrollo Personal G7 - ONE</h3>
+                    <p class="formacion__detalle">2024</p>
+                </div>
+            </div>
+            <div class="formacion__elemento" onclick="openModal('assets/logica-programación.png')">
+                <img class="formacion__icono" src="assets/aluraoracle.png" alt="Lógica de Programación">
+                <div>
+                    <h3 class="formacion__nombre">Lógica de Programación con JavaScript</h3>
+                    <p class="formacion__detalle">2024</p>
+                </div>
+            </div>
+            <div class="formacion__elemento" onclick="openModal('assets/principiante.png')">
+                <img class="formacion__icono" src="assets/aluraoracle.png" alt="Principiante en Programación">
+                <div>
+                    <h3 class="formacion__nombre">Principiante en Programación G7 - ONE</h3>
+                    <p class="formacion__detalle">2024</p>
+                </div>
+            </div>
+            <div class="formacion__elemento" onclick="openModal('assets/emprendimiento.png')">
+                <img class="formacion__icono" src="assets/aluraoracle.png" alt="Emprendimiento y Agilidad">
+                <div>
+                    <h3 class="formacion__nombre">Emprendimiento, Agilidad y Protagonismo Profesional G7 - ONE</h3>
+                    <p class="formacion__detalle">2024</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="imageModal" class="modal">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img class="modal-content" id="modalImg">
+            <div id="caption"></div>
+        </div>
+    </section>
+
+    <!-- Sección de Proyectos -->
+    <section class="proyectos" id="proyectos">
+        <h2 class="proyectos__titulo">Proyectos</h2>
+        <div class="proyectos__contenedor">
+            <a href="https://sileneg.github.io/juego_secreto/" target="_blank" class="proyectos__link">
+                <div class="proyectos__overlay">Abrir Proyecto</div>
+                <img class="proyectos__imagen" src="assets/numero-secreto.png" alt="Imagen del Proyecto 1">
+            </a>
+            <div class="proyectos__detalle">
+                <h3 class="proyectos__nombre">El Juego Secreto</h3>
+                <p class="proyectos__descripcion">Juego en el que se debe adivinar un número, la persona tiene 3 intentos para lograrlo. Si no acierta, sale el mensaje que no acertó.</p>
+            </div>
+        </div>
+        <div class="proyectos__contenedor">
+            <a href="https://sileneg.github.io/encriptador-texto/" target="_blank" class="proyectos__link">
+                <div class="proyectos__overlay">Abrir Proyecto</div>
+                <img class="proyectos__imagen" src="assets/encriptador.png" alt="Imagen del Proyecto 2">
+            </a>
+            <div class="proyectos__detalle">
+                <h3 class="proyectos__nombre">Encriptador de Texto</h3>
+                <p class="proyectos__descripcion">Este proyecto permite encriptar y desencriptar textos. Solo acepta letras, no admite signos, números o símbolos.</p>
+            </div>
+        </div>
+        <div class="proyectos__contenedor">
+            <a href="https://sileneg.github.io/sin-tapujos/" target="_blank" class="proyectos__link">
+                <div class="proyectos__overlay">Abrir Proyecto</div>
+                <img class="proyectos__imagen" src="assets/sin.tapujos.png" alt="Imagen del Proyecto 3">
+            </a>
+            <div class="proyectos__detalle">
+                <h3 class="proyectos__nombre">Sin Tapujos</h3>
+                <p class="proyectos__descripcion">Iniciativa para fortalecer el conocimiento de los estudiantes en la lectura crítica, con enfoque en las pruebas SABER 11.</p>
+            </div>
+        </div>
+        <div class="proyectos__contenedor">
+            <a href="https://sileneg.github.io/Coffenet/" target="_blank" class="proyectos__link">
+                <div class="proyectos__overlay">Abrir Proyecto</div>
+                <img class="proyectos__imagen" src="assets/coffenet.png" alt="Imagen del Proyecto 4">
+            </a>
+            <div class="proyectos__detalle">
+                <h3 class="proyectos__nombre">Coffenet</h3>
+                <p class="proyectos__descripcion">Página web desarrollada para una papelería y miscelánea, orientada a ventas en línea de los productos disponibles.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section class="contacto" id="contacto">
+        <h2 class="contacto__titulo">Contacto</h2>
+        <form class="contacto__formulario" id="contactForm" novalidate>
+            <input class="contacto__campo" type="text" id="nombre" placeholder="Nombre" required>
+            <small id="nombreError" class="error-message"></small>
+            <input class="contacto__campo" type="email" id="correo" placeholder="Correo Electrónico" required>
+            <small id="correoError" class="error-message"></small>
+            <input class="contacto__campo" type="text" id="asunto" placeholder="Asunto" required>
+            <small id="asuntoError" class="error-message"></small>
+            <textarea class="contacto__campo contacto__campo--textarea" id="mensaje" placeholder="Mensaje" required></textarea>
+            <small id="mensajeError" class="error-message"></small>
+            <button class="contacto__boton" type="submit">Enviar</button>
+        </form>
+        <div id="successModal" class="contacto__modal">
+            <div class="contacto__modal-contenido">
+                <span class="close-modal">&times;</span>
+                <p>Datos enviados correctamente.</p>
+            </div>
+        </div>
+        </section>
+
+    <!-- Flecha Arriba -->
+    <button id="scrollToTopBtn" onclick="scrollToTop()">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Footer -->
+    <footer>
+        <p>Teléfono: +57 312 5440397 | WhatsApp: +57 312 5440397 | Email: silenegonzalezquiroz@gmail.com</p>
+        <p>&copy; 2024 Silene GQ. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+    <script src="script.js"></script>
+</html>
